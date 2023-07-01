@@ -15,7 +15,7 @@
                  then you should use singleTask, else a new MainActivity would be started
                  when the settings activity is currently shown -->
         <activity
-            android:name=".MainActivity"
+            android:name="com.lucvachon.sinky23.MainActivity"
             android:launchMode="singleTask"
             android:windowSoftInputMode="stateHidden|adjustResize"
             android:exported="true">
